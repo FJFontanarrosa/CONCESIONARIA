@@ -19,8 +19,17 @@ let autos = [
       anio: 2019,
       patente: "JJK116",
       vendido: false
-
-    }
+    },
+    { marca: "BMW",
+      modelo: "A800",
+      precio: 300000,
+      km: 90,
+      color: "Negro",
+      cuotas: 15,
+      anio: 2022,
+      patente: "ABL777",
+      vendido: false
+  }
 ]
 //console.table(autos);
 
