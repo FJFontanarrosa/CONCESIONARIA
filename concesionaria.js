@@ -6,6 +6,12 @@ let persona = {
     capacidadDePagoTotal: 100000
  }
 
+ let persona2 = {
+   nombre: "Alberso",
+   capacidadDePagoEnCuotas: 200000,
+   capacidadDePagoTotal: 1000000
+}
+
 let concesionaria = {
    autos: autos,
    
@@ -84,7 +90,7 @@ let concesionaria = {
    },
 }
 
-concesionaria.autosQuePuedeComprar(persona)
+console.table(concesionaria.autosQuePuedeComprar(persona2))
 
 
    
